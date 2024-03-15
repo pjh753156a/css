@@ -1,0 +1,183 @@
+@font-face {
+    font-family:'KakaoRegular';
+    src: url('../font/KakaoRegular.ttf');
+}
+
+@font-face{
+    font-family: 'KakaoBold';
+    src: url('../font/KakaoBold.ttf');
+}
+
+
+*{
+    font-family:KakaoRegular,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    min-width: 1712px;
+}
+
+.contents-box1{
+    display: grid;
+    grid-template:
+        "are1 are2" 360px
+        /1fr 1fr;
+        gap: 24px;
+}
+
+.area1{
+    grid-area: are1;
+    background-color: rgba(240,240,240,1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 20px;
+    row-gap: 20px;
+}
+
+.area2{
+    grid-area: are2;
+    background-color: rgba(240,240,240,1);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 20px;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.three:hover{
+    cursor: pointer;
+}
+
+
+.three{
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background-size: 100%;
+    text-align: center;
+}
+
+.aline{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.aline2{ 
+    display: flex;
+    flex-direction:row;
+    column-gap: 20px;
+}
+
+.kakao{
+    background-image: url('https://t1.kakaocdn.net/kakaocorp/kakaocorp/admin/kakaoService/c9424536018c00001.png');
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background-size: 100%;
+}
+
+.bodo{
+    background-color: rgba(255,255,255,1);
+    border-radius: 12px;
+    padding: 2px;
+}
+
+
+.p{
+    height: 36px;
+    border-radius: 12px;
+    background-size: 100%;
+}
+
+.p:hover{
+    cursor: pointer;
+}
+
+
+.contents-box2{
+    display: grid;
+    grid-template:
+        "are3 are4 are5" 180px
+        /1fr 1fr 1fr;
+        gap: 16px;
+}
+
+.area3{
+    grid-area: are3;
+    background-color: rgba(240,240,240,1);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 20px;
+}
+
+.area4{
+    grid-area: are4;
+    background-color: rgba(240,240,240,1);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 20px;
+}
+
+.area5{
+    grid-area: are5;
+    background-color: rgba(240,240,240,1);
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 64px;
+    font-size: 20px;
+}
+
+.area3:hover{
+    cursor: pointer;
+}
+
+
+.area4:hover{
+    cursor: pointer;
+}
+
+.area5:hover{
+    cursor: pointer;
+}
+
+.round-black{
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 1);
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 24px;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.area3:hover .round-black,
+.area4:hover .round-black,
+.area5:hover .round-black{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+

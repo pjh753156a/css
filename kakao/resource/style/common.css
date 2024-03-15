@@ -21,6 +21,16 @@ body{
     min-width: 1712px;
 }
 
+.contents-box{
+    display: grid;
+    grid-template:
+        "comunication busniess" 180px
+        "life-style shopping" 180px
+        "entertainment social" 180px
+        /1fr 1fr;
+        gap: 16px;
+}
+
 #wrapper{
     flex-shrink: 0;
     display: flex;
@@ -48,15 +58,6 @@ body{
 }
 
 /* contents-box */
-.contents-box{
-    display: grid;
-    grid-template:
-        "comunication busniess" 180px
-        "life-style shopping" 180px
-        "entertainment social" 180px
-        /1fr 1fr;
-        gap: 16px;
-}
 
 .content-card{
     background-color: rgba(240,240,240,1);
